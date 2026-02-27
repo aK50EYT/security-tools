@@ -1,4 +1,4 @@
-pythonimport socket
+import socket
 
 def scan_port(target, port):
     try:
@@ -10,5 +10,17 @@ def scan_port(target, port):
     except:
         print(f"[-] Port {port} CLOSED")
 
+def scan_multiple_ports(target, ports):
+    print(f"\n[*] Scanning {target}...\n")
+    for port in ports:
+        scan_port(target, port)
+
 target = input("Enter target IP: ")
-scan_port(target, 80)
+scan_multiple_ports(target, [21, 22, 23, 80, 443, 8080])
+
+
+
+
+
+
+
