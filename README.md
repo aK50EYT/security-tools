@@ -28,6 +28,7 @@ python scanner.py
 ## Author
 - GitHub: aK50EYT-sec
 - Email: anaskennouz7@gmail.com
+- linkedin:www.linkedin.com/in/anas-kennouz-665663272
 
 ## Legal Disclaimer
 This tool is for educational purposes and authorized testing only.
