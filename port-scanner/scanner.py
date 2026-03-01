@@ -30,6 +30,3 @@ def scan_multiple_ports(target, ports):
     if ip:
         for port in ports:
             scan_port(ip, port)
-
-target = input("Enter target IP or domain: ")
-scan_multiple_ports(target, [21, 22, 23, 80, 443, 8080, 3306, 3389])
