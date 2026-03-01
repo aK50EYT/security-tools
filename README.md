@@ -8,27 +8,42 @@ A collection of offensive security tools for bug bounty and penetration testing.
 A Python-based port scanner with the following features:
 - Scan multiple ports
 - Domain name resolution
-- Service detection (HTTP, SSH, FTP...)
+- Service detection (HTTP, SSH, FTP, MySQL...)
+- Graphical User Interface (GUI)
 
 ## Usage
+
+### CLI Mode
 ```bash
 cd port-scanner
 python scanner.py
 ```
 
-## Example Output
+### GUI Mode
+```bash
+cd port-scanner
+python gui.py
 ```
-[*] google.com resolved to 172.217.171.46
-[*] Scanning google.com...
-[+] Port 80 OPEN  →  HTTP
-[+] Port 443 OPEN →  HTTPS
-[-] Port 22 CLOSED
+
+## Screenshots
+
+### GUI Interface
+![Port Scanner GUI](screenshots/gui.png)
+
+## Project Structure
+```
+security-tools/
+    ├── port-scanner/
+    │       ├── scanner.py    ← core scanning functions
+    │       ├── services.py   ← ports and services dictionary
+    │       └── gui.py        ← graphical interface
+    └── README.md
 ```
 
 ## Author
 - GitHub: aK50EYT-sec
 - Email: anaskennouz7@gmail.com
-- linkedin:www.linkedin.com/in/anas-kennouz-665663272
 
 ## Legal Disclaimer
 This tool is for educational purposes and authorized testing only.
+Do not use against systems without explicit permission.
