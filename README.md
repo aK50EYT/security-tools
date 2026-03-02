@@ -28,7 +28,11 @@ python gui.py
 ## Screenshots
 
 ### GUI Interface
-![Port Scanner GUI](screenshots/gui.png)
+<p align="center">
+  <a href="screenshots/gui.png">
+    <img src="screenshots/gui.png" width="700">
+  </a>
+</p>
 
 ## Project Structure
 ```
