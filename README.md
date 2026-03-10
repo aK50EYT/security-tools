@@ -40,7 +40,7 @@ A fast Python-based port scanner built for efficiency and clarity.
 
 <div align="center">
 
-![Port Scanner GUI](gui.png)
+![Port Scanner GUI](port-scanner/gui.png)
 
 *Port Scanner GUI — scanning `scanme.nmap.org`*
 
